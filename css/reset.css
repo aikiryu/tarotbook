@@ -27,6 +27,10 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: pretendard;
+    src: url(../font/PretendardVariable.woff2);
+}
 html{
     font-family: 'GmarketSansLight';
     color: #363636;
