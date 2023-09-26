@@ -43,3 +43,13 @@ function animateFrom(elem, direction) {
     });
   });
   
+
+
+  $(window).resize(function(){
+    
+  let windowHeight = window.innerHeight;
+  $('.banner').height(windowHeight);
+  });
+
+  let windowHeight = window.innerHeight;
+  $('.banner').height(windowHeight);
