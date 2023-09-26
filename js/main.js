@@ -35,9 +35,7 @@ function animateFrom(elem, direction) {
         trigger: elem,
         markers: false,
         start:'top 500',
-        toggleActions: "restart reverse reverse none",
         onEnter: function() { animateFrom(elem) }, 
-        onEnterBack : function() {animateFrom(elem, -1)},
         onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
       });
     });
