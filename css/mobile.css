@@ -222,6 +222,7 @@ h1 img{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    -webkit-background-attachment: fixed;
 
 }
 
