@@ -1,4 +1,6 @@
-
+body{
+    height: 30000px;
+}
 /* header */
 header{
     height: 50px;
@@ -320,6 +322,206 @@ h1 img{
 .s2{
     position: relative;
     z-index: 10;
-    height: 100vh;
     background-color: #c3b992;
+    padding-top: 40px;
+}
+
+.s2 .s2Star1{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.s2 .s2Star2{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.s2 .s2Star3{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 0;
+    transform: scaleX(-1);
+}
+.s2 .s2Star4{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    left: 0;
+}
+.s2 h3{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background-image: url(../images/divide2.png);
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 20px;
+    font-size: 14px;
+    position: relative;
+    z-index: 10;
+
+}
+.s2 h3 span{
+    display: block;
+    font-size: 14px;
+    color: #fff;
+}
+
+.s2 h3 strong{
+    display: block;
+    font-size: 5vw;
+    margin-top: 5px;
+    background-image: url(../images/divide2.png);
+    background-size: 120px auto;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    padding-top: 25px;
+    color:#38475b
+}
+.s2 .txtBox{
+    width: 90%;
+    margin: 40px auto 0;
+    position: relative;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: pretendard;
+    font-weight: 300;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(56, 71, 91, 0.744);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 5px;
+    height: 80vh;
+   
+}
+
+.s2 .item{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+}
+
+
+
+.s2 .txtBox:after{
+    content: '';
+    width:calc(100% - 10px);
+    height:calc((100% - 10px));
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    border:2px solid #c3b992;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.s2 .item .pic{
+    margin-bottom: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.s2 .item .pic img{
+    width: 100%;
+    display: block;
+}
+
+
+.s2 .item p{
+    word-break: keep-all;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.s3{
+    position: relative;
+    background-color: #38475b;
+    padding: 15vw 0;
+}
+
+
+.s3 .frames{
+    width: 20%;
+    position: absolute;
+}
+.s3 .rightTop{
+    top: 5vw;
+    right: 5%;
+}
+
+.s3 .leftTop{
+    transform: scaleX(-1);
+    top: 5vw;
+    left: 5%;
+}
+
+.s3 .rightBottom{
+    bottom: 5vw;
+    right: 5%;
+    transform: scaleY(-1);
+}
+
+.s3 .leftBottom{
+    bottom:5vw;
+    left: 5%;
+    transform: rotate(-180deg);
+}
+
+.s3 h3 span{
+    display: block;
+    text-align: center;
+    color: #c3b992;
+}
+
+.s3 h3{
+    font-size:5vw
+}
+
+.s3 h3 [data-aos=fade-up] {
+    transform: translate3d(0,20px,0);
+}
+
+.s3 .con{
+    width: 90%;
+    margin: 40px auto 0;
+}
+
+.s3 .con .box{}
+.s3 .con .box .txt{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 25px;
+    font-size: 18px;
+}
+.s3 .con .box .txt strong{
+    font-family: 'GmarketSansMedium';
+}
+.s3 .con .box .pic{
+    width: 80%;
+    margin:0 auto;
+}
+.s3 .con .box .pic img{
+    width: 100%;
 }
