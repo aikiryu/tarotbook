@@ -1,5 +1,4 @@
 body{
-    height: 30000px;
 }
 /* header */
 header{
@@ -235,6 +234,7 @@ h1 img{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    z-index: 2;
 }
 
 .s1 h3{
@@ -505,6 +505,8 @@ h1 img{
 .s3 .con{
     width: 90%;
     margin: 40px auto 0;
+    z-index: 6;
+    position: relative;
 }
 
 .s3 .con .box{}
