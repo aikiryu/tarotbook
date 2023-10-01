@@ -270,6 +270,8 @@ h1 img{
 .s1 .txtBox{
     width: 90%;
     margin: 40px auto 0;
+    position: relative;
+    z-index: 10;
 }
 
 .s1 .txtBox h4{
@@ -491,7 +493,7 @@ h1 img{
 .s3 h3 span{
     display: block;
     text-align: center;
-    color: #c3b992;
+    color: #fff;
 }
 
 .s3 h3{
